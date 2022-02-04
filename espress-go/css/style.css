@@ -1,0 +1,41 @@
+p {
+    font-family: Calibri;}
+
+h1, h2, h3{
+    font-family: 'Courier New';
+    color: red;}
+
+body {
+    font-family: 'Calibri';}
+
+    input {padding: 6px 12px 6px 12px;border: 1px solid brown; color:brown;}
+    input[type="submit"]:hover {background-color: red;}
+    input[type="submit"]:active {background-color: green;}
+    input[type="text"] {color: black;}
+   
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: lower-roman;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: rgb(210, 232, 245);}
+
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.25px;
+  } 
+
+  a:visited {color:red;}
+a {
+    color: seagreen;
+}
